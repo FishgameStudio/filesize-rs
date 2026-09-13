@@ -4,6 +4,8 @@
 ![Issues](https://img.shields.io/github/issues/FishgameStudio/filesize-rs)
 ![PRs](https://img.shields.io/github/issues-pr/FishgameStudio/filesize-rs)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange?logo=rust)](rust-lang.org)
+[![Crates.io Version](https://img.shields.io/crates/v/filesize-rs.svg)](https://crates.io/crates/filesize-rs)
+[![Crates.io Downloads](https://img.shields.io/crates/d/filesize-rs.svg)](https://crates.io/crates/filesize-rs)
 [![License](https://img.shields.io/github/license/FishgameStudio/filesize-rs)](LICENSE)
 
 **filesize-rs** is a **extremely lightweight** library to get file and directory sizes, with **zero dependencies**. The core implementation is only **~200 lines**, helping you avoid reinventing this small wheel.
