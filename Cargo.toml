@@ -1,0 +1,10 @@
+[package]
+name = "filesize-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "filesize_rs"
+path = "src/lib.rs"
+
+[dependencies]
