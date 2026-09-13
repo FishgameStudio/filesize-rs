@@ -2,6 +2,9 @@
 name = "filesize-rs"
 version = "0.1.0"
 edition = "2024"
+description = "An extremely lightweight, zero-dependency library to calculate file and directory sizes."
+license = "MIT"
+repository = "https://github.com/yourname/filesize-rs"
 
 [lib]
 name = "filesize_rs"
