@@ -1,6 +1,6 @@
 [package]
 name = "filesize-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "An extremely lightweight, zero-dependency library to calculate file and directory sizes."
 license = "MIT"

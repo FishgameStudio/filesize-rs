@@ -70,13 +70,11 @@ pub type Result<T> = result::Result<T, SizeError>;
 /// # Example
 /// ```
 /// use filesize_rs::{get_size_bytes, Result};
-/// fn main() -> Result<()> {
-///     let size: u64 = get_size_bytes("a.txt")?;
-///     let size: u64 = match get_size_bytes("b.txt") {
-///         Ok(size) => size,
-///         Err(e) => panic!("Failed to get size: {e}"),
+/// fn main() {
+///     match get_size_bytes("a.txt") {
+///         Ok(size) => println!("Size: {size} bytes"),
+///         Err(e) => eprintln!("Unable to get size: {e}"),
 ///     }
-///     Ok(())
 /// }
 /// ```
 /// # Errors
